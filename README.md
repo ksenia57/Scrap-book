@@ -1,4 +1,4 @@
-## Web-scraping of a site with books
+## Web-scraping of a site with books📚
 Take [Book24](https://book24.ru/) as an example.
 ### To do:
 #### (implemented in [main](https://github.com/ksenia57/Scrap-book/blob/master/main.py))
