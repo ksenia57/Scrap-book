@@ -1,14 +1,14 @@
-## Парсинг сайта с книгами
-За пример взят сайт Book24
+## Web-scraping of a site with books
+Take Book24 as an example.
 ### To do:
-#### (реализовано в [main](https://github.com/ksenia57/Scrap-book/blob/master/main.py))
-+ Открываем интересующий нас отдал. В моём случае это Художественная литература, популярные запросы.
-+ Вытаскиваем ссылки на личную страницу каждой книги.
-+ Для удобства код каждой страницы будем хранить в папке data в файле с названием книги.
-+ Вытаскиваем название, автора, описание, раздел, издательство, возрастное ограничение, год издания, количество страниц, оценку. В случае отсутствия какой любо строки, ей присваивается значение NaN.
-+ Добавляем конструкции try-except, чтобы избежать ошибок в программе. Если какого-либо параметра книги нет, то оно рано NaN.
-+ Создаём список project_data_list.
-+ Записываем словарь в json файл.
-+ Добавляем цикл for для прогонки всех страниц раздела Художественная страница.
-### Результат:
-Получаем [json файл](https://github.com/ksenia57/Scrap-book/blob/master/project_book.json) с данными.
+#### (implemented in [main](https://github.com/ksenia57/Scrap-book/blob/master/main.py))
++ We open the section of interest to us. In my case, this is "Художественная литература", popular queries.
++ We pull out links to the personal page of each book.
++ For convenience, the code of each page will be stored in the data folder in the file with the title of the book.
++ We pull out the title, author, description, section, publisher, age limit, year of publication, number of pages, rating. If any string is missing, it is assigned the value NaN.
++ We add try-except constructs to avoid errors in the program. If any book parameter is missing, then it is NaN.
++ We create the list project_data_list.
++ We write the dictionary to json file.
++ Add a for loop to iterate through all the pages in the "Художественная литература".
+### Result:
+Get [json file](https://github.com/ksenia57/Scrap-book/blob/master/project_book.json) with data.
