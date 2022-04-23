@@ -1,8 +1,8 @@
 ## Web-scraping of a site with books
-Take Book24 as an example.
+Take [Book24](https://book24.ru/) as an example.
 ### To do:
 #### (implemented in [main](https://github.com/ksenia57/Scrap-book/blob/master/main.py))
-+ We open the section of interest to us. In my case, this is Fiction books, popular queries.
++ We open the section of interest to us. In my case, this is [Fiction books](https://book24.ru/catalog/fiction-1592/), popular queries.
 + We pull out links to the personal page of each book.
 + For convenience, the code of each page will be stored in the data folder in the file with the title of the book.
 + We pull out the title, author, description, section, publisher, age limit, year of publication, number of pages, rating. If any string is missing, it is assigned the value NaN.
